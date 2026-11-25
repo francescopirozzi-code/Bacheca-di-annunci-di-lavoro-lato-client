@@ -1,4 +1,4 @@
-# bacheca_lavoro_client
+# Bacheca di annunci di lavoro lato client
 
 Lato Client dell'applicazione Bacheca di Annunci di Lavoro
 
