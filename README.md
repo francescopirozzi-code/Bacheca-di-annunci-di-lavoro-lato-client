@@ -2,16 +2,8 @@
 
 Lato Client dell'applicazione Bacheca di Annunci di Lavoro
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Come eseguire
+1. Avvia prima il back-end (`bacheca_lavoro_server`) sulla porta `8080`.
+2. Apri `lib/config/api_config.dart` e imposta `baseUrl` con l'IP locale del PC (`http://<IP_PC>:8080` per smartphone fisico, oppure `http://10.0.2.2:8080` per emulatore Android).
+3. Scarica le dipendenze: `flutter pub get`
+4. Avvia l'app: `flutter run`
